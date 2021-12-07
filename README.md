@@ -61,6 +61,10 @@ New product features will, as a general rule, be developed using Blazor server t
 
 Blazor server apps are not suitable for deployment to production on the public Internet, however. Production versions of applications will always be implemented with WebAssembly.
 
+## Development with Multi-platform App UI (MAUI)
+
+Where native applications are required, these will be developed using Blazor and MAUI.
+
 # Package Management
 
 The Package Manager for the Conatus product line will be Microsoft's Nuget packaging system. Nuget packages may be hosted on public and private repositories (including within the local file system of the developer's machine).
