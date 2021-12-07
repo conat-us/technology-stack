@@ -127,7 +127,7 @@ Using a strategy that provisions lightweight Blazor WebAssembly single page prog
 
 - bring the Conatus product line to market sooner with a more complete product offering
 - permit a wider range of Conatus product line offerings with the least amount of development time and risk
-make the Conatus product line more relevant and useful to a wider range of (paying) corporate customers
+- make the Conatus product line more relevant and useful to a wider range of (paying) corporate customers
 - reduce the size of apps that target consumers and staff in the field, which makes for faster loading times and reduced load on mobile device batteries, memory and processing power - which tends to lead to "snappier" app performance and a better and more focussed user experience
 
 # Package Management
