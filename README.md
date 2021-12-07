@@ -168,4 +168,14 @@ Some elements of the Conatus product line are likely to be open source. This is 
 
 It's strongly suggested that software repositories of this type (along with documentation) are published as public GitHub repositories while proprietary elements of the Conatus product line should be hosted in private GitHub repositories. Use of AWS CodeCommit is strongly discouraged because it provides none of these features and strengths and, in truth, is a very poor alternative to GitHub in amost every respect.
 
+# Identity Management and Authentication
 
+From the outset the Conatus product line will use OAuth2 for authorization and OpenID Connection (OIDC) for authentication. This strategy readily promotes outsourcing of authentication (and related security issues, including multi-factor authentication) to third party identity providers such as Social Media Identity Providers (Google, LinkedIn, Facebook, Twitter, etc.) and SaaS identity providers (such as OAuth0 and Okta). 
+
+Where Contatus or a client wishes to host their own Identity Provider (such as a corporate Active Directory server or products such as IdentityServer4 or Keycloak server) then this is merely a matter of configuration rather than implementing a custom Identity Provider within the Conatus product line itself.
+
+Support for OAuth2 and OIDC is built into Orchard Core framework out-of-the-box.
+
+# Roles and Permissions
+
+Roles and permissions will be implemented with Microsoft Identity Framwork. This is built into Orchard Core framework out-of the box.
