@@ -61,6 +61,10 @@ New product features will, as a general rule, be developed using Blazor server t
 
 Blazor server apps are not suitable for deployment to production on the public Internet, however. Production versions of applications will always be implemented with WebAssembly.
 
+### Component Kits
+
+The Conatus product line will use the Blazorise component kit. This supports a number of CSS frameworks including Bootstrap and Material UI.
+
 ## Development with Multi-platform App UI (MAUI)
 
 Where native applications are required, these will be developed using Blazor and MAUI.
