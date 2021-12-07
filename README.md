@@ -57,7 +57,9 @@ The Conatus product line will, by default, be progressive web applications (PWAs
 
 ## Development with Blazor
 
-New product features will, as a general rule, be developed using Blazor server technology. This is because developing new features with Blazor Server permits easier and more rapid debugging. Porting the debugged code to Blazor WebAssembly is relatively trivial and rapid, however.
+New product features will, as a general rule, be developed using Blazor server technology. This is because developing new features with Blazor Server permits easier and more rapid debugging. Porting the debugged code to Blazor WebAssembly is relatively trivial and quick. 
+
+Blazor server apps are not suitable for deployment to production on the public Internet, however. Production versions of applications will always be implemented with WebAssembly.
 
 # Package Management
 
@@ -75,7 +77,7 @@ During development on Mac machines, Docker Desktop is an excellent and convenien
 
 Initial development of container orchestration will be based upon Docker Compose. A key benefit of Docker Compose is that it's very easy to understand and tooling already exists to deploy Docker Compose stacks onto Kubernetes-based orchestration engines and services.
 
-In future container orchestration may use Kubernetes with Helm. This is more flexible and more powerful that Docker Compose but - at least at the outset - Docker Compose is easier to understand for most developers and easier to set up and run in a local development environment.
+In future container orchestration may use Kubernetes with Helm. This is more flexible and more powerful than Docker Compose but - at least at the outset - Docker Compose is easier to understand for most developers and easier to set up and run in a local development environment.
 
 # CI/CD Pipeline
 
