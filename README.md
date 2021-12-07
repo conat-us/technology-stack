@@ -160,7 +160,12 @@ The target of a build can be deployed to any IaaS provider, including AWS, Azure
 
 Issue Management will be performed using GitHub integrated Issue Management. This provides similar (if basic) functionality equivalent to tools like Atlassian JIRA but is perfectly adequate for issue management and tracking. But with the added benefit that it's highly integrated with the GitHub platform itself and provides a means of automating many tasks (including tracking of builds and deployments).
 
+# Software Repositories
 
+GitHub is the most popular software repository platform with a wide range of enhanced services, extension points and integration points. This is the natural home for any software product line that intends to appeal to a corporate IT audience that intends to integrate that product line with other services provided by its own enterprise systems or third parties.
 
+Some elements of the Conatus product line are likely to be open source. This is particularly true of any features that promote integration or adoption, including by third party developers. 
+
+It's strongly suggested that software repositories of this type (along with documentation) are published as public GitHub repositories while proprietary elements of the Conatus product line should be hosted in private GitHub repositories. Use of AWS CodeCommit is strongly discouraged because it provides none of these features and strengths and, in truth, is a very poor alternative to GitHub in amost every respect.
 
 
