@@ -170,7 +170,7 @@ It's strongly suggested that software repositories of this type (along with docu
 
 # Identity Management and Authentication
 
-From the outset the Conatus product line will use OAuth2 for authorization and OpenID Connection (OIDC) for authentication. This strategy readily promotes outsourcing of authentication (and related security issues, including multi-factor authentication) to third party identity providers such as Social Media Identity Providers (Google, LinkedIn, Facebook, Twitter, etc.) and SaaS identity providers (such as OAuth0 and Okta). 
+From the outset the Conatus product line will use OAuth2 for authorization and OpenID Connect (OIDC) for authentication. This strategy readily promotes outsourcing of authentication (and related security issues, including multi-factor authentication) to third party identity providers such as Social Media Identity Providers (Google, LinkedIn, Facebook, Twitter, etc.) and SaaS identity providers (such as OAuth0 and Okta). 
 
 Where Contatus or a client wishes to host their own Identity Provider (such as a corporate Active Directory server or products such as IdentityServer4 or Keycloak server) then this is merely a matter of configuration rather than implementing a custom Identity Provider within the Conatus product line itself.
 
